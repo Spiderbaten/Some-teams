@@ -23,6 +23,12 @@ h1 {
   font-size: 4rem;
   margin: 0%;
 }
+p {
+  font-size: 1.2rem;
+}
+h2 {
+  font-size: 2rem;
+}
 header {
   background-color: var(--primmery);
   color: var(--white);
@@ -68,4 +74,14 @@ header h1 {
   width: 80%;
   display: block;
   margin: 0 auto;
+}
+
+.abt-content {
+  text-align: center;
+  width: 60%;
+  margin-top: 3rem;
+}
+main {
+  display: flex;
+  justify-content: center;
 }
