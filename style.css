@@ -19,7 +19,10 @@ a {
 a:hover {
   color: var(--accent);
 }
-
+h1 {
+  font-size: 4rem;
+  margin: 0%;
+}
 header {
   background-color: var(--primmery);
   color: var(--white);
@@ -36,9 +39,7 @@ header a {
 }
 
 header h1 {
-  font-size: 4rem;
   padding: 1.6rem;
-  margin: 0%;
 }
 
 .cards {
