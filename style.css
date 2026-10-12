@@ -1,0 +1,37 @@
+:root {
+  --white: #eee6da;
+  --primmery: #ae4747;
+  --black: #231a1a;
+  --accent: #d19c98;
+}
+
+body {
+  background-color: var(--white);
+  margin: 0%;
+}
+
+header {
+  background-color: var(--primmery);
+  color: var(--white);
+  gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--white);
+  float: right;
+  font-size: 1.6rem;
+}
+
+header h1 {
+  font-size: 4rem;
+  padding: 1.6rem;
+  margin: 0%;
+}
+
+header a:hover {
+  color: var(--accent);
+}
