@@ -3,11 +3,21 @@
   --primmery: #ae4747;
   --black: #231a1a;
   --accent: #d19c98;
+  --card-background: #e7d9c6;
 }
 
 body {
   background-color: var(--white);
   margin: 0%;
+  color: var(--black);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
 }
 
 header {
@@ -20,7 +30,6 @@ header {
 }
 
 header a {
-  text-decoration: none;
   color: var(--white);
   float: right;
   font-size: 1.6rem;
@@ -32,6 +41,30 @@ header h1 {
   margin: 0%;
 }
 
-header a:hover {
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: var(--card-background);
+  width: 25%;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: #b3a494 4px 4px 8px 4px;
+}
+
+.card a {
+  color: var(--primmery);
+}
+.card a:hover {
   color: var(--accent);
+}
+
+.card img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
