@@ -33,7 +33,6 @@ header {
   background-color: var(--primmery);
   color: var(--white);
   gap: 4rem;
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -43,13 +42,16 @@ header a {
   float: right;
   font-size: 1.6rem;
 }
-
+.cards,
+main,
+header {
+  display: flex;
+}
 header h1 {
   padding: 1.6rem;
 }
 
 .cards {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -63,11 +65,8 @@ header h1 {
   box-shadow: #b3a494 4px 4px 8px 4px;
 }
 
-.card a {
+a {
   color: var(--primmery);
-}
-.card a:hover {
-  color: var(--accent);
 }
 
 .card img {
@@ -82,10 +81,26 @@ header h1 {
   margin-top: 3rem;
 }
 main {
-  display: flex;
   justify-content: center;
 }
 
 .card:hover {
-  transform: translateY(-0.2rem);
+  transform: translateY(-0.3rem);
+  transition: 0.3s;
+}
+
+.card-detail {
+  width: 100vw;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.card-detail img {
+  width: 30rem;
+  margin-top: 4rem;
+}
+.content-detail {
+  scale: 150%;
 }

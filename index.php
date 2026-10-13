@@ -11,11 +11,11 @@ require __DIR__ . "/header.php";
     <?php 
     foreach ($teams as $name => $team):
     ?>
-        <div class="card" >
+        <div onclick="window.location.href='details.php?id=<?= urlencode($team['ID']) ?>'" id="card" class="card" >
 
             <img class="team-logo" src="<?= $team['logo_uefa'] ?>" alt="">
 
-            <h2><?= $name ?></h2>
+            <h2 ><?= $name ?></h2>
 
             <p>League: <?= $team['league'] ?> </p>
 
@@ -25,7 +25,7 @@ require __DIR__ . "/header.php";
 
             <p>City: <?= $team['city'] ?> </p>
 
-            <a href="<?= $team['url'] ?>"> Visit club website</a>          
+            <a href="<?= $team['url'] ?>"> Visit club website →</a>          
         </div>
 
     <?php endforeach; ?>

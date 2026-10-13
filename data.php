@@ -4,6 +4,7 @@
 // 'logo': club-site crest where found, otherwise the UEFA badge. 'logo_uefa': uniform 240x240 PNG fallback.
 $teams = [
     'Ajax' => [
+        'ID' => 1,
         'league' => 'Vrouwen Eredivisie (Netherlands)',
         'uefa-coefficient-ranking' => 21,
         'league-position' => 2,
@@ -13,6 +14,7 @@ $teams = [
         'logo_uefa' => 'https://img.uefa.com/imgml/TP/teams/logos/240x240/2604835.png'
     ],
     'Brann' => [
+      'ID' => 2,
         'league' => 'Toppserien (Norway)',
         'uefa-coefficient-ranking' => 18,
         'league-position' => 1,
@@ -22,6 +24,7 @@ $teams = [
         'logo_uefa' => 'https://img.uefa.com/imgml/TP/teams/logos/240x240/2612267.png'
     ],
     'Brøndby' => [
+        'ID' => 3,
         'league' => 'A-Liga (Denmark)',
         'uefa-coefficient-ranking' => 85,
         'league-position' => 3,
@@ -31,6 +34,7 @@ $teams = [
         'logo_uefa' => 'https://img.uefa.com/imgml/TP/teams/logos/240x240/83727.png'
     ],
     'Czarni Sosnowiec' => [
+        'ID' => 4,
         'league' => 'Ekstraliga (Poland)',
         'uefa-coefficient-ranking' => 115,
         'league-position' => null,
@@ -40,6 +44,7 @@ $teams = [
         'logo_uefa' => 'https://img.uefa.com/imgml/TP/teams/logos/240x240/2603340.png'
     ],
     'Fenerbahçe' => [
+        'ID' => 5,
         'league' => 'Süper Lig (Turkey)',
         'uefa-coefficient-ranking' => 104,
         'league-position' => null,
@@ -49,6 +54,7 @@ $teams = [
         'logo_uefa' => 'https://img.uefa.com/imgml/TP/teams/logos/240x240/2612244.png'
     ],
     'Feyenoord' => [
+        'ID' => 6,
         'league' => 'Vrouwen Eredivisie (Netherlands)',
         'uefa-coefficient-ranking' => 73,
         'league-position' => 9,
